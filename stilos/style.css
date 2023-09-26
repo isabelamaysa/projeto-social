@@ -47,3 +47,22 @@ iframe{
     transform: rotate(13deg);
     border-radius: 10px;
 }
+
+#redes-sociais  img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%; /*borda arredondada*/
+    box-shadow: 2px 2px 5px  black;
+    box-sizing: border-box;
+}
+
+#redes-sociais{
+    text-align: right;
+}
+
+#redes-sociais  img:hover{
+    border: 2px solid rgba(255, 241, 241, 0.297);
+    transform: translate(-5px, -5px);
+    transition: transform .4s, border 1s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.633);
+}
